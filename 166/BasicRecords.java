@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+class Student {
+  String name;
+  int grade;
+  int avg;
+}
+
+public class BasicRecords {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+  
+    Student s1 = new Student();
+    System.out.print("Enter the first student's name:");
+    s1.name = input.next();
+    System.out.print("Enter the first student's grade:");
+    s1.grade = input.nextInt();
+    System.out.print("Enter the first student's average:");
+    s1.avg = input.nextInt();
+    
+    Student s2 = new Student();
+    System.out.print("Enter the first student's name:");
+    s2.name = input.next();
+    System.out.print("Enter the first student's grade:");
+    s2.grade = input.nextInt();
+    System.out.print("Enter the first student's average:");
+    s2.avg = input.nextInt();
+    
+    Student s3 = new Student();
+    System.out.print("Enter the first student's name:");
+    s3.name = input.next();
+    System.out.print("Enter the first student's grade:");
+    s3.grade = input.nextInt();
+    System.out.print("Enter the first student's average:");
+    s3.avg = input.nextInt();
+    
+    System.out.println("The names are: " + s1.name + " " + s2.name + " "  + s3.name);
+    System.out.println("The grades are: " + s1.grade  + " " + s2.grade  + " " + s3.grade);
+    
+    System.out.println("The average for the three students is: " + ((s1.avg + s2.avg + s3.avg)/3));
+    
+  }
+}
