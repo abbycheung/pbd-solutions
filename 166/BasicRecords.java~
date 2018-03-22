@@ -19,20 +19,21 @@ public class Main {
     s1.avg = input.nextInt();
     
     Student s2 = new Student();
-    System.out.print("Enter the first student's name:");
+    System.out.print("Enter the second student's name:");
     s2.name = input.next();
-    System.out.print("Enter the first student's grade:");
+    System.out.print("Enter the second student's grade:");
     s2.grade = input.nextInt();
-    System.out.print("Enter the first student's average:");
+    System.out.print("Enter the second student's average:");
     s2.avg = input.nextInt();
     
     Student s3 = new Student();
-    System.out.print("Enter the first student's name:");
+    System.out.print("Enter the third student's name:");
     s3.name = input.next();
-    System.out.print("Enter the first student's grade:");
+    System.out.print("Enter the third student's grade:");
     s3.grade = input.nextInt();
-    System.out.print("Enter the first student's average:");
+    System.out.print("Enter the third student's average:");
     s3.avg = input.nextInt();
+    
     
     System.out.println("The names are: " + s1.name + " " + s2.name + " "  + s3.name);
     System.out.println("The grades are: " + s1.grade  + " " + s2.grade  + " " + s3.grade);
